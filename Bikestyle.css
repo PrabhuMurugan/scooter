@@ -1,0 +1,107 @@
+.topnav {
+    background-color:none;
+    overflow: hidden;
+  }
+  .topnav a{
+    float: right;
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 15px 35px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    border-radius:5px;
+  }
+  .topnav a:hover {
+    background-color: coral;
+    color: black;
+    border-radius:5px;
+  }
+  .topnav .icon {
+    display: none;
+  }
+  #logo{
+      height:50px;
+      float:right;
+      margin-right: 20px;
+      color:none;
+  }
+  #head{
+      float:left;
+      font-family: 'Poppins', sans-serif;
+      font-size:30px;
+      font-weight: bold;
+  }
+  #image{
+      margin-left: 100px;
+  }
+  #new{
+    font-family: 'Poppins', sans-serif; 
+    color:coral;
+    font-size: 40px;
+    line-height:normal;
+  }
+  #old{
+      font-family: 'poppins' , sans-serif;
+      color: darkgray;
+      font-size: 20px;
+  }
+  #order{
+      color:black;
+      font-size: 25px;
+      font-weight: bold;
+      font-family: 'Poppins', sans-serif;
+      margin-left: 20px;
+      text-decoration: none;
+      
+  }
+  .content{
+    float:right;
+    margin-right:200px;
+    margin-top:-380px;
+  }
+  #feature{
+      font-family:'poppins',sans-serif;
+      font-size: 25px;
+      color:coral;
+      font-weight: bold;
+      text-align: center;
+  }
+  .column{
+      float: left;
+      width: 33.33%;
+      text-align: center;
+      font-family: 'Poppins', sans-serif;
+      color:black;
+      font-size: 25px;
+      font-weight: bold;
+
+
+  }
+  .row:after{
+      display:table;
+      clear:both;
+      font-weight: bold;
+      font-family: 'Poppins', sans-serif;
+      color:black;
+      font-size: 40px;
+  }
+  #old1{
+    font-family: 'poppins' , sans-serif;
+    color: darkgray;
+    font-size: 20px;
+    font-weight:none;
+  }
+    .button {
+        background-color:coral;
+        border: none;
+        color:black;
+        padding: 20px;
+        text-align: center;
+        text-decoration: bold;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 2px;
+        border-radius: 50%;
+      }
